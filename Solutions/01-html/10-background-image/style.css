@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+div {
+    margin: 25px;
+}
+
+.duck-image {
+    width: 500px;
+    height: 300px;
+    background-color: blue;
+
+    /* adding an image location */
+    background-image: url("img/duck.png");
+
+    /* show different size values */
+    background-size: contain;
+
+    /* show repeat and no repeat, different starting position */
+    background-repeat: repeat;
+    background-position: 20% 20%;
+}

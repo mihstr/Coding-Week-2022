@@ -1,0 +1,49 @@
+/* style for evrtything */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.game {
+    position: relative;
+    width: 60vw;
+    margin: auto;
+    margin-top: 2vw;
+    margin-right: auto;
+    display: grid;
+    /* how many times to repat and its width */
+    grid-template-columns: repeat(3, 20vw);
+    /* height for rows */
+    grid-auto-rows: 20vw;
+    gap: 1vw;
+}
+
+.cell {
+    background-color: #3535ec;
+}
+
+.symbol {
+    color: white;
+    text-align: center;
+    line-height: 17vw;
+    font-size: 20vw;
+}
+
+.banner {
+    position: absolute;
+    margin-left: -10vw;
+    margin-top: 16vw;
+    width: 82vw;
+    height: 30vw;
+    background-color: red;
+    opacity: 90%;
+}
+  
+.banner h1 {
+    color: white;
+    text-align: center;
+    font-size: 15vw;
+    line-height: 28vw;
+}
